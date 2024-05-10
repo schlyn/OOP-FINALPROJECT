@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="215dp"
+            android:layout_height="136dp"
+            android:src="@drawable/_34961564_377833645253613_3814730969771631261_n"
+            app:layout_constraintBottom_toTopOf="@+id/Bfeedbacks"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.848" />
+
+        <Button
+            android:id="@+id/BaboutApp"
+            android:layout_width="241dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:background="#003049"
+            android:text="About App"
+            android:textAlignment="center"
+            android:textColor="#fbbf4b"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#003049"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Bfeedbacks" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="241dp"
+            android:layout_height="52dp"
+            android:background="#003049"
+            android:text="LOGOUT"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#003049"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BaboutApp"
+            app:layout_constraintVertical_bias="0.123" />
+
+        <Button
+            android:id="@+id/Bfeedbacks"
+            android:layout_width="241dp"
+            android:layout_height="52dp"
+            android:background="#003049"
+            android:text="FeedBacks"
+            android:textColor="#fbbf4b"
+            android:textSize="20dp"
+            app:backgroundTint="#003049"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.453" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003049"
+    android:fitsSystemWindows="true"
+    tools:context=".Aboutapp">
+
+
+    <Button
+        android:id="@+id/Aback"
+        android:layout_width="114dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="BACK"
+        android:textColor="#FBBF4B"
+        app:icon="@drawable/arrow_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="155dp"
+        android:layout_height="34dp"
+        android:text="ABOUT APP"
+        android:textAlignment="center"
+        android:textColor="#FBBF4B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aback"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="403dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="204dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="GO4L is the ultimate social platform for Batangas State University students, revolutionizing school communication by providing a dedicated space to share and explore academic and social happenings, connecting the vibrant community of learners seamlessly."
+        android:textColor="#fbbf4b"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="260dp"
+        android:layout_height="189dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/_34961564_377833645253613_3814730969771631261_n" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="344dp"
+        android:layout_height="309dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clipart2251071" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

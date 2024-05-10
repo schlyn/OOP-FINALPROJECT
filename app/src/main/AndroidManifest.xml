@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/_34879279_1143183903491883_1476115552423517168_n"
+        android:label="GO4L"
+        android:roundIcon="@drawable/_34879279_1143183903491883_1476115552423517168_n"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".PostAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Addpost"
+            android:exported="false"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".Aboutapp"
+            android:exported="false"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".Feedbacks"
+            android:exported="false"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".loginPage"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Startup_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
